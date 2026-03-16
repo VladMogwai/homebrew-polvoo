@@ -1,12 +1,12 @@
 cask "dev-dashboard" do
-  version "1.0.0"
+  version "1.0.1"
 
   if Hardware::CPU.arm?
-    sha256 "12fe4aea8cc8d9e501eafe745a219758e8e1637522ab95a4fe9bc826ee37b402"
-    url "https://github.com/VladMogwai/dev-dashboard/releases/download/v1.0.0/Dev.Dashboard-1.0.0-arm64-mac.zip"
+    sha256 "9438ecf1439e4d6310e8803261efabdabf7a148951b73a22f07da835a8f3d1b6"
+    url "https://github.com/VladMogwai/dev-dashboard/releases/download/v1.0.1/Dev.Dashboard-1.0.1-arm64-mac.zip"
   else
-    sha256 "89f52a4434c8897f44788828a34aae8163ef99370981aedd0b78766160b43eda"
-    url "https://github.com/VladMogwai/dev-dashboard/releases/download/v1.0.0/Dev.Dashboard-1.0.0-mac.zip"
+    sha256 "0a087423bbcd26cd670cadf0899b4717bcf45dd30e36bc1ee13f2293042d6203"
+    url "https://github.com/VladMogwai/dev-dashboard/releases/download/v1.0.1/Dev.Dashboard-1.0.1-mac.zip"
   end
 
   name "Dev Dashboard"
