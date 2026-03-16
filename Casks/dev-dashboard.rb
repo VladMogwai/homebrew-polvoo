@@ -15,6 +15,9 @@ cask "dev-dashboard" do
 
   app "Dev Dashboard.app"
 
+  uninstall quit: "com.devdashboard.app",
+            delete: "/Applications/Dev Dashboard.app"
+
   postflight do
     system_command "/usr/bin/xattr",
                    args: ["-cr", "#{appdir}/Dev Dashboard.app"],
