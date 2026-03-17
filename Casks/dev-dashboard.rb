@@ -1,13 +1,8 @@
 cask "dev-dashboard" do
-  version "1.0.4"
+  version "1.0.5"
 
-  if Hardware::CPU.arm?
-    sha256 "d7eb86b7f95e13a3ae949e63819623190c20389b503e2c656950575fd8f90d50"
-    url "https://github.com/VladMogwai/dev-dashboard/releases/download/v1.0.4/Dev.Dashboard-1.0.4-arm64-mac.zip"
-  else
-    sha256 "ffea529f9a284555f0921e8dc66773d612bdbb172275c752c7f6817059c98d88"
-    url "https://github.com/VladMogwai/dev-dashboard/releases/download/v1.0.4/Dev.Dashboard-1.0.4-mac.zip"
-  end
+  sha256 "09a461e4486f88adcf4b18eab9b7d29a8bea5c23f63190ec88d74a8e10ba4426"
+  url "https://github.com/VladMogwai/dev-dashboard/releases/download/v1.0.5/Dev.Dashboard-1.0.5-arm64-mac.zip"
 
   name "Dev Dashboard"
   desc "Developer Project Dashboard — like Docker Desktop for local dev projects"
